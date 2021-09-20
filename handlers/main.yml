@@ -1,0 +1,6 @@
+---
+# handlers file for disable-cloud-init
+- name: Reboot
+  reboot:
+    msg: "Reboot initiated by Ansible after cloud-init changed"
+  listen: "reboot"
