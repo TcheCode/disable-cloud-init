@@ -1,17 +1,16 @@
 galaxy_info:
+  role_name: disable_cloud_init
+  namespace: tchecode
   author: Lucas Lehnen
-  description: Disable cloud-init services 
+  description: Disable cloud-init services
   company: Tchê Code
   license: MIT
-
   min_ansible_version: 2.1
-   
   platforms:
     - name: Ubuntu
-      versions:     
+      versions:
         - all
+  galaxy_tags:
+    - cloudinit
 
-  galaxy_tags: 
-   - cloud-init    
-
-dependencies: [] 
+dependencies: []
